@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                sh'''rm -rf python
-                git clone 'git@github.com:Ray-Shubham/python.git'
+                sh'''rm -rf task
+                git clone 'https://github.com/Gautham-kukutla/python.git' task
                 '''
             }
         }
