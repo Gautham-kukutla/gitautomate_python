@@ -18,8 +18,8 @@ pipeline {
         }
         stage('Git Modification Check') {
             steps {
-                bat'''cd task
-                pip install GitPython
+                bat'''pip install GitPython
+                cd task
                 pwd
                 python python_script.py
                 '''
