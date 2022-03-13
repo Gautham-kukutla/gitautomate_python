@@ -11,14 +11,14 @@ pipeline {
         }
         stage('Creating Files') {
             steps {
-                sh '''cd python
+                sh '''cd task
                 touch file.txt file1.txt file3.txt
                 '''
             }
         }
         stage('Git Modification Check') {
             steps {
-                sh'''cd python
+                sh'''cd task
                 pwd
                 python3 python_script.py
                 '''
