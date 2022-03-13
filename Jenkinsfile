@@ -20,7 +20,7 @@ pipeline {
             steps {
                 bat'''cd task
                 pwd
-                python3 python_script.py
+                python python_script.py
                 '''
             }
         }
