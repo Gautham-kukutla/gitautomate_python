@@ -23,9 +23,9 @@ pipeline {
                 pwd
                 python3 python_script.py
                 chmod +x script2.sh
-                ./script2.sh
+               /* ./script2.sh
+                */
                 '''
-
             }
         }
     }
