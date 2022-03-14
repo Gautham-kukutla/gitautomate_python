@@ -23,10 +23,10 @@ pipeline {
                 pwd
                 git remote set-url origin https://Gautham-kukutla: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@github.com/Gautham-kukutla/python.git
                 python python_script.py
-                chmod +x script2.sh'''
-                sh ''' ./script2.sh
-               '''               
-               
+                chmod +x script2.sh
+                bash script2.sh
+                '''
+
             }
         }
     }
