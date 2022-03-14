@@ -12,7 +12,7 @@ pipeline {
         stage('Creating Files') {
             steps {
                 sh '''cd task
-                touch file.txt file1.txt file3.txt
+                touch file.txt 
                 '''
             }
         }
