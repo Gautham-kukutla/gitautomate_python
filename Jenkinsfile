@@ -22,7 +22,7 @@ pipeline {
                 cd task
                 pwd
                 git remote set-url origin https://Gautham-kukutla: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@github.com/Gautham-kukutla/python.git
-                python python_script.py
+                python3 python_script.py
                 chmod +x script2.sh
                 ./script2.sh
                 '''
